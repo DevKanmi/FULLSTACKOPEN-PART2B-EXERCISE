@@ -65,7 +65,7 @@ const App = () => {
     <div>
       <h2>Phonebook</h2>
       <p><input value={search} onChange={onSearch} /></p>
-      <h2>Add a New</h2>
+      <h2>Add a New Note: </h2>
       <form onSubmit={handleclick}>
         <div>
           name: <input value ={newName} onChange={Tochange} />
